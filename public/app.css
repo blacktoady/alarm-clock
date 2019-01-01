@@ -1,0 +1,64 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+.clock {
+  font-size: 150px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  margin-bottom: 25px;
+}
+.alarm {
+  padding: 0;
+  display: inline-block;
+  box-sizing: border-box;
+  font-size: 150px;
+  text-align: center;
+  line-height: 1em;
+  border: 1px solid black;
+  margin-bottom: 25px;
+}
+input {
+  height: 160px;
+  width: 200px;
+  outline: none;
+  margin-bottom: 0;
+  font-size: 150px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  border: 0;
+  line-height: 1em;
+  vertical-align: middle;
+  margin-bottom: 18px;
+}
+#userHours {
+  text-align: right;
+}
+#userMin {
+  text-align: left;
+}
+.button {
+  background-color: #001FA0;
+  color: #fff;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 110px;
+  text-align: center;
+  margin-top: 30px;
+  padding: 15px;
+  border: 0;
+  transition: all 0.2s ease 0.1s;
+}
+.button:hover {
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+
+}
+.button:active {
+  background-color: #001fb9;
+}
+
+
+/*# sourceMappingURL=app.css.map*/
